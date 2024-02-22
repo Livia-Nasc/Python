@@ -1,3 +1,5 @@
+# Crie uma classe para implementar uma Conta Corrente. A classe deve possuir os seguintes atributos: número da conta, nome do correntista e saldo. Os métodos são os seguintes: depósito (recebe valor como atributo e soma ao saldo) e saque (recebe valor como atributo e subtrai do saldo).
+
 class conta_bancaria:
     def init(self, saldo, nome, numero_da_conta):
         self.saldo = saldo
